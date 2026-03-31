@@ -5,14 +5,15 @@
 2. Run `npm install -D`
 3. Change directories to the `server` folder
 4. Run `npm install -D`
-5. Create a run configuration for the React client
+5. Run `npm install -D @types/node @types/express`
+6. Create a run configuration for the React client
    1. Create a new run configuration by clicking on the bar to the left of
       the green run button in the middle of top of the screen
    2. Click on `+`
    3. Select `npm` (node package manager) from the left menubar
    4. Select the `package.json` file in the `client` folder
    5. Select `dev` as the script to run
-6. Create a run configuration for the Express server
+7. Create a run configuration for the Express server
    1. Create another new run configuration 
    2. After clicking on `+`, select `Node.js`
    3. For the Typescript loader, select `(Bundled) TSX`
