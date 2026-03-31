@@ -1,6 +1,5 @@
 import express from 'express'
-const http = require('http')
-const cors = require('cors')
+import cors from 'cors'
 const app = express()
 
 app.use(cors())
