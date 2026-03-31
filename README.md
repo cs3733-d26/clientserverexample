@@ -5,7 +5,7 @@
 2. Run `npm install -D`
 3. Change directories to the `server` folder
 4. Run `npm install -D`
-5. Run `npm install -D @types/node @types/express`
+5. Run `npm install -D @types/node @types/express @types/cors`
 6. Create a run configuration for the React client
    1. Create a new run configuration by clicking on the bar to the left of
       the green run button in the middle of top of the screen
@@ -34,7 +34,7 @@
     1. `npm install -D express cors`
     2. `npm install -D nodemon`
     3. `npm install -D typescript`
-    4. `npm install @types/typescript `
+    4. `npm install @types/typescript @types/node @types/express @types/cors`
 7. Create and run the server file `server.ts`
 
 ### Now create the files in the project
